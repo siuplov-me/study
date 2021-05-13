@@ -10,10 +10,10 @@ spring:
        max-idle : 100
        min-idle : 50   
   rabbitmq:
-    host: 10.165.196.104
+    host: 10.234.138.35
     port: 5672
-    username: omp
-    password: '!QAZ@WSX'
+    username: zzz
+    password: zzz
   http:
     multipart:
       max-file-size: 1000MB
