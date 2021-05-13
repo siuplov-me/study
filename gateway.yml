@@ -5,7 +5,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: pig-auth,pig-upms-service,pig-demo-service
+      clients: study-service
   ignoredServices: '*'
   host:
     connect-timeout-millis: 10000
