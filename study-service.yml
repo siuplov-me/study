@@ -6,8 +6,7 @@ redis:
     expiration: 3600
 
 # 数据库支持
-spring:
-  datasource:
+datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: adcpm
     password: '!QAZ@WSX'
