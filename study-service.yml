@@ -6,11 +6,11 @@ redis:
     expiration: 3600
 
 # 数据库支持
-#datasource:
-#  driver-class-name: com.mysql.jdbc.Driver
-#  url: jdbc:mysql://123.126.94.58:3306/pig
-#  username: adcpm
- # password: "!QAZ@WSX"
+datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://123.126.94.58:3306/pig
+  username: adcpm
+  password: "!QAZ@WSX"
 
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
