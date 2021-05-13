@@ -6,8 +6,8 @@ redis:
     expiration: 3600
 
 # 数据库支持
-datasource:
-    type: com.zaxxer.hikari.HikariDataSource
+spring:
+  datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: adcpm
     password: '!QAZ@WSX'
