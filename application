@@ -1,13 +1,3 @@
-#加密配置
-jasypt:
-  encryptor:
-    password: lengleng
-
-server:
-  tomcat:
-    max-threads: 500 # Maximum amount of worker threads.
-    min-spare-threads: 50 # Minimum amount of worker threads
-
 spring:
   redis:
     remote: false        #cachecloud 获取
@@ -74,14 +64,3 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
-
-#监控短点配置
-management:
-  security:
-    enabled: false
-endpoints:
-  actuator:
-    enabled: true
-  shutdown:
-    enabled: false
-
