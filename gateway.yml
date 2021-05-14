@@ -10,3 +10,19 @@ zuul:
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 10000
+    
+ignore:
+  urls:
+    - /mobile/**
+    - /auth/**
+    - /admin/code/*
+    - /admin/smsCode/*
+    - /admin/user/info
+    - /admin/menu/userMenu
+    - /swagger-resources/**
+    - /swagger-ui.html
+    - /*/v2/api-docs
+    - /swagger/api-docs
+    - /webjars/**
+  clients:
+    - app
